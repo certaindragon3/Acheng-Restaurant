@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87e630c0412b4663995a077dee4dd8a, type: 3}
+  m_Name: Dongpo_Pork
+  m_EditorClassIdentifier: 
+  dishID: dongpo_pork
+  englishName: Dongpo Pork
+  chineseName: 东坡肉
+  pinyinName: Dongpo Rou
+  category: 1
+  difficulty: 1
+  briefDescription: Braised pork belly named after the famous poet Su Dongpo.
+  detailedDescription: A famous Hangzhou dish made by pan-frying and then red cooking pork belly. The pork is cut into a square, consisting of half fat and half lean meat.
+  historicalOrigin: Attributed to Su Dongpo in the Song Dynasty.
+  culturalSymbolism: Symbolizes the refined literary culture of Jiangnan.
+  regionalSignificance: A classic of Hangzhou/Suzhou cuisine.
+  craftmanshipNotes: Requires long braising time for tenderness.
+  estimatedDuration: 300
+  cookingSteps:
+  - stepNumber: 1
+    title: Parboil Park
+    narrationAudio: {fileID: 0}
+    subtitles: Boil the pork belly to remove impurities.
+    narrationDuration: 30
+    requiredGesture: 0
+    successThreshold: 0.7
+    visualGuideAnimation: {fileID: 0}
+  completionMessage: The fat is translucent but not greasy. Perfect.
+  dishModel: {fileID: 0}
+  platingReference: {fileID: 0}

@@ -207,9 +207,9 @@ MonoBehaviour:
   enableSnapTurn: 1
   enableVignette: 0
   vignetteIntensity: 0.5
-  moveAction: {fileID: 0}
-  turnAction: {fileID: 0}
-  sprintAction: {fileID: 0}
+  moveAction: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  turnAction: {fileID: -8525429354371678379, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  sprintAction: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!143 &170201534
 CharacterController:
   m_ObjectHideFlags: 0
@@ -488,9 +488,9 @@ MonoBehaviour:
   rayWidth: 0.02
   hapticIntensity: 0.5
   hapticDuration: 0.1
-  selectAction: {fileID: 0}
-  activateAction: {fileID: 0}
-  gripAction: {fileID: 0}
+  selectAction: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  activateAction: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  gripAction: {fileID: -7621925406209348655, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1176435562
 GameObject:
   m_ObjectHideFlags: 0
@@ -971,7 +971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60b82a6f12f21456cb7058ad10a1f157, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  handType: 1
+  handType: 0
   handModel: {fileID: 0}
   controllerModel: {fileID: 0}
   rayLine: {fileID: 0}
@@ -981,9 +981,9 @@ MonoBehaviour:
   rayWidth: 0.02
   hapticIntensity: 0.5
   hapticDuration: 0.1
-  selectAction: {fileID: 0}
-  activateAction: {fileID: 0}
-  gripAction: {fileID: 0}
+  selectAction: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  activateAction: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  gripAction: {fileID: -8148491892877670638, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &1960601127
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,11 +1013,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77d08e19b6d954d41a6729a5cd0e3d77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
-  expectedState: 0
+  sceneName: Tutorial
+  expectedState: 1
   allowSkipTutorial: 1
   tutorialTimeoutSeconds: 300
-  tutorialUI: {fileID: 0}
+  tutorialUI: {fileID: 1479367589}
   skipButton: {fileID: 0}
 --- !u!4 &1960601129
 Transform:

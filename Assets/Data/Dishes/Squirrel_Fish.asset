@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87e630c0412b4663995a077dee4dd8a, type: 3}
+  m_Name: Squirrel_Fish
+  m_EditorClassIdentifier: 
+  dishID: squirrel_fish
+  englishName: Squirrel Fish
+  chineseName: 松鼠鳜鱼
+  pinyinName: Songshu Guiyu
+  category: 1
+  difficulty: 2
+  briefDescription: A signature Suzhou dish featuring crispy fried fish with sweet and sour sauce, named for its squirrel-like appearance when served.
+  detailedDescription: Squirrel Fish is one of the most celebrated dishes in Jiangsu cuisine. The fish is carefully deboned, scored in a crosshatch pattern, and deep-fried until golden and crispy. When plated, it curls up to resemble a squirrel's bushy tail. The dish is then topped with a vibrant sweet and sour sauce made from tomatoes, sugar, and vinegar, creating a perfect balance of flavors and textures.
+  historicalOrigin: Dating back to the Qing Dynasty, this dish was allegedly created for Emperor Qianlong during his visit to Suzhou. The chef transformed a carp from the imperial pond into this masterpiece to avoid punishment.
+  culturalSymbolism: Represents prosperity and abundance in Chinese culture. The fish symbolizes surplus (余), while its playful presentation brings joy to family gatherings.
+  regionalSignificance: A cornerstone of Suzhou cuisine, showcasing the region's emphasis on precise knife work, delicate flavors, and artistic presentation.
+  craftmanshipNotes: Requires expert knife skills to score the fish without cutting through. The frying temperature must be precisely controlled to achieve the signature crispy exterior while keeping the interior tender.
+  estimatedDuration: 300
+  cookingSteps:
+  - stepNumber: 1
+    title: Prepare the Fish
+    narrationAudio: {fileID: 0}
+    subtitles: First, we carefully debone and score the fish in a diamond pattern.
+    narrationDuration: 45
+    requiredGesture: 1
+    successThreshold: 0.7
+    visualGuideAnimation: {fileID: 0}
+  - stepNumber: 2
+    title: Coat with Starch
+    narrationAudio: {fileID: 0}
+    subtitles: Coat the fish evenly with dry starch, ensuring every cut is covered.
+    narrationDuration: 30
+    requiredGesture: 6
+    successThreshold: 0.7
+    visualGuideAnimation: {fileID: 0}
+  - stepNumber: 3
+    title: Deep Fry
+    narrationAudio: {fileID: 0}
+    subtitles: Fry the fish in hot oil until golden brown and the shape is set.
+    narrationDuration: 60
+    requiredGesture: 0
+    successThreshold: 0.7
+    visualGuideAnimation: {fileID: 0}
+  - stepNumber: 4
+    title: Prepare Sauce
+    narrationAudio: {fileID: 0}
+    subtitles: Stir-fry tomato sauce, sugar, vinegar and water to create the sweet and sour sauce.
+    narrationDuration: 40
+    requiredGesture: 2
+    successThreshold: 0.7
+    visualGuideAnimation: {fileID: 0}
+  - stepNumber: 5
+    title: Thicken Sauce
+    narrationAudio: {fileID: 0}
+    subtitles: Add wet starch to thicken the sauce until it's glossy and rich.
+    narrationDuration: 30
+    requiredGesture: 2
+    successThreshold: 0.7
+    visualGuideAnimation: {fileID: 0}
+  - stepNumber: 6
+    title: Plating
+    narrationAudio: {fileID: 0}
+    subtitles: Pour the hot sauce over the fish immediately before serving.
+    narrationDuration: 30
+    requiredGesture: 3
+    successThreshold: 0.7
+    visualGuideAnimation: {fileID: 0}
+  completionMessage: Excellent! You've mastered the art of Squirrel Fish. The balance of sweet and sour is perfect.
+  dishModel: {fileID: 0}
+  platingReference: {fileID: 0}

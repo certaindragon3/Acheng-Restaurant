@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87e630c0412b4663995a077dee4dd8a, type: 3}
+  m_Name: West_Lake_Fish
+  m_EditorClassIdentifier: 
+  dishID: west_lake_fish
+  englishName: West Lake Vinegar Fish
+  chineseName: 西湖醋鱼
+  pinyinName: Xihu Cuyu
+  category: 1
+  difficulty: 1
+  briefDescription: Grass carp poached in water and covered with a sweet and sour vinegar sauce.
+  detailedDescription: A traditional dish of Hangzhou cuisine. The fish is cooked to be extremely tender, and the sweet and sour sauce brings out the freshness of the fish without any earthy taste.
+  historicalOrigin: Associated with a legend of two brothers in the Song Dynasty.
+  culturalSymbolism: Represents righteous anger and brotherhood (from the legend).
+  regionalSignificance: Named after the famous West Lake in Hangzhou.
+  craftmanshipNotes: Poaching time must be precise to ensure the texture is like crab meat.
+  estimatedDuration: 300
+  cookingSteps:
+  - stepNumber: 1
+    title: Prepare Fish
+    narrationAudio: {fileID: 0}
+    subtitles: Clean the grass carp and cut it into two halves, keeping them connected at the tail.
+    narrationDuration: 30
+    requiredGesture: 1
+    successThreshold: 0.7
+    visualGuideAnimation: {fileID: 0}
+  completionMessage: The taste of West Lake history in every bite.
+  dishModel: {fileID: 0}
+  platingReference: {fileID: 0}

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87e630c0412b4663995a077dee4dd8a, type: 3}
+  m_Name: Sweet_Osmanthus_Cake
+  m_EditorClassIdentifier: 
+  dishID: sweet_osmanthus_cake
+  englishName: Sweet Osmanthus Cake
+  chineseName: 桂花糕
+  pinyinName: Guihua Gao
+  category: 3
+  difficulty: 0
+  briefDescription: Traditional Chinese pastry made with glutinous rice flour and osmanthus honey.
+  detailedDescription: A traditional sweet scent pastry that has been enjoyed in China for hundreds of years. It has a crystal-like appearance and the sweet fragrance of osmanthus flowers.
+  historicalOrigin: Legend has it that it originated from the moon goddess Chang'e.
+  culturalSymbolism: Eaten during the Mid-Autumn Festival, symbolizing harvest and reunion.
+  regionalSignificance: Osmanthus is the city flower of Suzhou.
+  craftmanshipNotes: Steaming time is critical for texture.
+  estimatedDuration: 300
+  cookingSteps:
+  - stepNumber: 1
+    title: Mix Flour
+    narrationAudio: {fileID: 0}
+    subtitles: Mix glutinous rice flour with sugar and water.
+    narrationDuration: 30
+    requiredGesture: 2
+    successThreshold: 0.7
+    visualGuideAnimation: {fileID: 0}
+  completionMessage: Sweet, fragrant, and soft. A perfect dessert.
+  dishModel: {fileID: 0}
+  platingReference: {fileID: 0}
